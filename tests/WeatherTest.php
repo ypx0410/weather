@@ -1,5 +1,16 @@
 <?php
+
+/*
+ * This file is part of the ypx/weather.
+ *
+ * (c) ypx<1143785498@qq.com>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
+
 namespace Ypx\Weather\Test;
+
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Response;
@@ -8,6 +19,7 @@ use Ypx\Weather\Exceptions\HttpException;
 use Ypx\Weather\Exceptions\InvalidArgumentException;
 use Ypx\Weather\Weather;
 use PHPUnit\Framework\TestCase;
+
 class WeatherTest extends TestCase
 {
     public function testGetWeatherWithInvalidType()
