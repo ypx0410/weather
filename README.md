@@ -1,7 +1,7 @@
 <h1 align="center"> Ypx/Weather </h1>
 
 <p align="center"> 基于高德开放平台的 PHP 天气信息组件。</p>
-
+[![Build Status](https://travis-ci.org/ypx0410/weather.svg?branch=master)](https://travis-ci.org/ypx0410/weather)
 
 ## 安装
 
@@ -133,7 +133,7 @@ $response = $weather->getForecastsWeather('深圳');
 $response = $weather->getLiveWeather('深圳', 'xml');
 ```
 
-##示例：
+#示例：
 
 ```shell
 <response>
